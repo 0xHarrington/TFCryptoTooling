@@ -1,4 +1,4 @@
-# investment-tooling
+# Terrace F. Crypto Tooling
 Collection of models and functions to help inform a retail user's Web 3 investments.
 
 ## Market Indicators
