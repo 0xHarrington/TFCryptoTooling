@@ -1,0 +1,50 @@
+:root {
+  --title-font-family: "Nova Round", cursive;
+  --default-font-family: "Palanquin", sans-serif;
+  /* 
+    16px is the default font size set by browswers in the html tag.
+    This should never be changed so that vision-impared users can override it.
+    Therefore, 1rem (root em) is the width of an em-dash at 16px.
+    If you want a differnt default size for your site, change it in the body tag.
+    For example, if you want 20px, then set the size to 20/16 = 1.25rem.
+  */
+  --defatul-font-size: 1.25rem;
+  --neutral-color-light: #f7f6f3;
+  --neutral-color-dark: #262626;
+
+  --primary-green: #008037;
+  --primary-yellow: #ffde59;
+  --primary-orange: #e77728;
+  --primary-blue: #087ca7;
+}
+
+.App {
+  text-align: center;
+}
+
+.site-logo {
+  height: 10em;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: var(--primary-blue);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--neutral-color-light);
+}
+
+.main-pane {
+  background-color: var(--neutral-color-dark);
+  padding: 2em;
+  border-radius: 30px;
+  box-shadow: 2px 2px 20px 2px rgba(0.9, 0.9, 0.9, 0.4);
+}
+
+.App-link {
+  color: var(--primary-blue);
+}
