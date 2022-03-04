@@ -33,6 +33,7 @@ Initailize your local venv with the following commands:
 ```bash
 cd flask
 conda env create -f environment.yml
+conda activate tfct
 ```
 
 Then launch the app by running it with your python3:
